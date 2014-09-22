@@ -1,0 +1,30 @@
+{
+  "name": "simple-line-icons",
+  "version": "0.0.1",
+  "authors": [
+    "Sabbir Ahmed <sabbiirr@gmail.com>"
+  ],
+  "description": "Simple Line Icons Bower Package",
+  "keywords": [
+    "fonts",
+    "simple",
+    "simple-line",
+    "icon"
+  ],
+    "main": [
+        "css/simple-line-icons.css",
+        "fonts/Simple-Line-Icons.eot",
+        "fonts/Simple-Line-Icons.svg",
+        "fonts/Simple-Line-Icons.ttf",
+        "fonts/Simple-Line-Icons.woff"
+    ],
+  "license": "MIT",
+  "homepage": "https://github.com/thesabbir/simple-line-icons",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
