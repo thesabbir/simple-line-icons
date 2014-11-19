@@ -1,6 +1,6 @@
 {
   "name": "simple-line-icons",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "authors": [
     "Sabbir Ahmed <sabbiirr@gmail.com>"
   ],
@@ -13,6 +13,7 @@
   ],
     "main": [
         "css/simple-line-icons.css",
+        "scss/simple-line-icons.scss",
         "fonts/Simple-Line-Icons.eot",
         "fonts/Simple-Line-Icons.svg",
         "fonts/Simple-Line-Icons.ttf",
