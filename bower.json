@@ -1,6 +1,6 @@
 {
   "name": "simple-line-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Sabbir Ahmed <sabbiirr@gmail.com>"
   ],
@@ -14,6 +14,7 @@
     "main": [
         "css/simple-line-icons.css",
         "scss/simple-line-icons.scss",
+        "less/simple-line-icons.less",
         "fonts/Simple-Line-Icons.eot",
         "fonts/Simple-Line-Icons.svg",
         "fonts/Simple-Line-Icons.ttf",
