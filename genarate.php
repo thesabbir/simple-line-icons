@@ -37,10 +37,7 @@ $css = 'css/simple-line-icons.css';
     foreach ($icons as $icon) {
         echo '<div class="icon-preview-box col-xs-6 col-md-3 col-lg-3">
                 <div class="preview">
-                <a href="#" class="show-code"><i class="' . $icon[1] . ' icons"></i><span class="name">' . str_replace('icon-', '', $icon[1]) . '</span></a>
-                </div>
-                <div class="codes">.' . $icon[1] . '
-
+                <a href="#" class="show-code" title="click to show css class name"><i class="' . $icon[1] . ' icons"></i><span class="name">' . str_replace('icon-', '', $icon[1]) . '</span> <code class="code-preview">.' . $icon[1] . '</code></a>
                 </div>
             </div>';
     } ?>

@@ -1,5 +1,6 @@
 .preview {
     padding: 20px 0;
+    position: relative;
 }
 
 .icons {
@@ -9,6 +10,7 @@
 
 .codes {
     display: none;
+    position: absolute;
 }
 
 .name {
@@ -19,7 +21,7 @@
     color: #101010;
 }
 
-.show-code:hover {
+.show-code:hover, .show-code:active, .show-code:focus {
     color: #252525;
     text-decoration: none;
 }
