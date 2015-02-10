@@ -4,5 +4,6 @@ $('.code-preview').hide();
         $(this).children('.name').toggle();
         $(this).children('.code-preview').toggle();
         e.stopPropagation();
+        return false;
     });
 });
