@@ -8,9 +8,8 @@
     padding-right: 10px;
 }
 
-.codes {
+.code-preview {
     display: none;
-    position: absolute;
 }
 
 .name {
