@@ -1,0 +1,49 @@
+.preview {
+    padding: 20px 0;
+}
+
+.icons {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.codes {
+    display: none;
+}
+
+.name {
+    font-size: 16px;
+}
+
+.show-code {
+    color: #101010;
+}
+
+.show-code:hover {
+    color: #252525;
+    text-decoration: none;
+}
+.footer {
+    background: #efefef;
+    min-height: 60px;
+    padding: 20px;
+}
+@media screen and (min-width: 768px) {
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background-color: #eee;
+    }
+
+    .navbar > .container .navbar-brand-centered,
+    .navbar > .container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+}
+
+body {
+    font-family: "Helvetica Neue", "Roboto", sans-serif;
+}
