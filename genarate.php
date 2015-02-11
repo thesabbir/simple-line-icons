@@ -3,9 +3,15 @@ $css = 'css/simple-line-icons.css';
 ?>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Simple line icons">
+    <meta name="keywords" content="simple, line, icons, icon pack, web icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="<?php echo $css; ?>">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>Simple Line Icons</title>
 </head>
 <body>
 
