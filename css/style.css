@@ -32,22 +32,12 @@
     min-height: 60px;
     padding: 20px;
 }
-@media screen and (min-width: 768px) {
-    .navbar-brand-centered {
-        position: absolute;
-        left: 50%;
-        display: block;
-        width: 160px;
-        text-align: center;
-        background-color: #eee;
-    }
-
-    .navbar > .container .navbar-brand-centered,
-    .navbar > .container-fluid .navbar-brand-centered {
-        margin-left: -80px;
-    }
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
 }
-
+.navbar-nav > li > iframe {
+    margin-top: 13px;
+}
 body {
     font-family: "Helvetica Neue", "Roboto", sans-serif;
 }

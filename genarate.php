@@ -29,7 +29,8 @@ $css = 'css/simple-line-icons.css';
 
         <div class="collapse navbar-collapse" id="bs-navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://github.com/thesabbir/simple-line-icons">Get it!</a></li>
+                <li><iframe src="https://ghbtns.com/github-btn.html?user=thesabbir&repo=simple-line-icons&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe></li>
+                <li><iframe src="https://ghbtns.com/github-btn.html?user=thesabbir&repo=simple-line-icons&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe></li>
             </ul>
         </div>
     </div>
