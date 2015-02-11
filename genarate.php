@@ -38,7 +38,7 @@ $css = 'css/simple-line-icons.css';
 
 <div class="container mt">
     <h1 class="text-center">Preview</h1>
-
+    <p class="text-center">Click on the icons to get the icon class name</p>
     <?php
     $pattern = '/\.(icon-(?:\w+(?:-)?)+):before\s+{\s*content:\s*"(.+)";\s+}/';
     $css_file = file_get_contents($css);
