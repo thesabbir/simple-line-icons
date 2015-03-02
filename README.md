@@ -15,6 +15,15 @@ via bower
 bower install simple-line-icons --save
 
 ```
+via npm
+
+```shell
+
+npm install simple-line-icons --save
+
+```
+
+you can also clone or download this repository as zip.
 
 Preview & Docs
 ===
