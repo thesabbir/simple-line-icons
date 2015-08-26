@@ -32,13 +32,11 @@ Preview & Docs
 
 Credits
 ===
-[Jamal Jama](https://twitter.com/byjml) for creating this awesome webfont.
+[Jamal Jama](https://twitter.com/byjml) for creating this awesome webfont & [Ahmad Firoz](https://twitter.com/firoz_usf) for extending it further.
 
 Contributors
 ====
-* [Sabbir Ahmed](https://twitter.com/alreadysabbir)
-* [Zeshan Ahmed](https://twitter.com/zeshanshani22)
-* [LDSign] (https://github.com/LDSign)
+[Check Here](https://github.com/thesabbir/simple-line-icons/graphs/contributors)!
 
 License
 ====
