@@ -5,6 +5,11 @@ Simple line icons
 
 Simple line icons with CSS, SAAS, LESS & Web-fonts files.
 
+Preview & Docs
+===
+[https://thesabbir.github.io/simple-line-icons] (https://thesabbir.github.io/simple-line-icons)
+
+
 Installation
 ====
 
@@ -23,11 +28,27 @@ npm install simple-line-icons --save
 
 ```
 
-you can also clone or download this repository as zip.
+Or, you can also clone or download this repository as zip.
 
-Preview & Docs
-===
-[https://thesabbir.github.io/simple-line-icons] (https://thesabbir.github.io/simple-line-icons)
+
+Customizing LESS/SASS variables
+====
+
+###LESS:
+
+```less
+@simple-line-font-path        : "/path/to/font/files";
+@simple-line-font-family      : "desired-name-font-family";
+@simple-line-icon-prefix      : prefix-;
+```
+
+###SASS:
+
+```sass
+$simple-line-font-path        : "/path/to/font/files";
+$simple-line-font-family      : "desired-name-font-family";
+$simple-line-icon-prefix      : prefix-;
+```
 
 
 Credits
