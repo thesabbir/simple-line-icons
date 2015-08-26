@@ -1,11 +1,12 @@
 .preview {
-    padding: 20px 0;
+    padding: 15px 0;
     position: relative;
+    height: 100px;
 }
 
 .icons {
     font-size: 18px;
-    padding-right: 10px;
+    padding-right: 7px;
 }
 
 .code-preview {
@@ -13,7 +14,7 @@
 }
 
 .name {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .show-code {
