@@ -69,7 +69,7 @@
 .icon-fire,
 .icon-eyeglass,
 .icon-envelope-open,
-.icon-envolope-letter,
+.icon-envelope-letter,
 .icon-bell,
 .icon-badge,
 .icon-anchor,
@@ -150,7 +150,7 @@
 .icon-camera,
 .icon-cloud-download,
 .icon-cloud-upload,
-.icon-envolope,
+.icon-envelope,
 .icon-eye,
 .icon-flag,
 .icon-heart,
@@ -383,7 +383,7 @@
 .icon-envelope-open:before {
   content: "\e01e";
 }
-.icon-envolope-letter:before {
+.icon-envelope-letter:before {
   content: "\e01f";
 }
 .icon-bell:before {
@@ -626,7 +626,7 @@
 .icon-cloud-upload:before {
   content: "\e084";
 }
-.icon-envolope:before {
+.icon-envelope:before {
   content: "\e086";
 }
 .icon-eye:before {
