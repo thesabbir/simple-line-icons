@@ -79,7 +79,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &fire,
   &eyeglass,
   &envelope-open,
-  &envolope-letter,
+  &envelope-letter,
   &bell,
   &badge,
   &anchor,
@@ -160,7 +160,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &camera,
   &cloud-download,
   &cloud-upload,
-  &envolope,
+  &envelope,
   &eye,
   &flag,
   &heart,
@@ -456,7 +456,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e01e";
 }
 
-.#{$simple-line-icon-prefix}envolope-letter:before {
+.#{$simple-line-icon-prefix}envelope-letter:before {
   content: "\e01f";
 }
 
@@ -780,7 +780,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e084";
 }
 
-.#{$simple-line-icon-prefix}envolope:before {
+.#{$simple-line-icon-prefix}envelope:before {
   content: "\e086";
 }
 
