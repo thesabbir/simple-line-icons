@@ -151,7 +151,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &volume-1,
   &volume-2,
   &volume-off,
-  &calender,
+  &calendar,
   &bulb,
   &chart,
   &ban,
@@ -189,7 +189,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &social-facebook,
   &social-instagram,
   &social-linkedin,
-  &social-pintarest,
+  &social-pinterest,
   &social-github,
   &social-gplus,
   &social-reddit,
@@ -744,7 +744,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e0a1";
 }
 
-.#{$simple-line-icon-prefix}calender:before {
+.#{$simple-line-icon-prefix}calendar:before {
   content: "\e075";
 }
 
@@ -896,7 +896,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e60a";
 }
 
-.#{$simple-line-icon-prefix}social-pintarest:before {
+.#{$simple-line-icon-prefix}social-pinterest:before {
   content: "\e60b";
 }
 

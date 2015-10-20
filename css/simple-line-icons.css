@@ -145,7 +145,7 @@
 .icon-volume-1,
 .icon-volume-2,
 .icon-volume-off,
-.icon-calender,
+.icon-calendar,
 .icon-bulb,
 .icon-chart,
 .icon-ban,
@@ -183,7 +183,7 @@
 .icon-social-facebook,
 .icon-social-instagram,
 .icon-social-linkedin,
-.icon-social-pintarest,
+.icon-social-pinterest,
 .icon-social-github,
 .icon-social-gplus,
 .icon-social-reddit,
@@ -603,7 +603,7 @@
 .icon-volume-off:before {
   content: "\e0a1";
 }
-.icon-calender:before {
+.icon-calendar:before {
   content: "\e075";
 }
 .icon-bulb:before {
@@ -717,7 +717,7 @@
 .icon-social-linkedin:before {
   content: "\e60a";
 }
-.icon-social-pintarest:before {
+.icon-social-pinterest:before {
   content: "\e60b";
 }
 .icon-social-github:before {
