@@ -7,28 +7,213 @@ $simple-line-icon-prefix: "icon-" !default;
 @if $simple-line-font-family == "simple-line-icons" {
   @font-face {
     font-family: '#{$simple-line-font-family}';
-    src: url('#{$simple-line-font-path}Simple-Line-Icons.eot?-i3a2kk');
-    src: url('#{$simple-line-font-path}Simple-Line-Icons.eot?#iefix-i3a2kk') format('embedded-opentype'),
-    url('#{$simple-line-font-path}Simple-Line-Icons.ttf?-i3a2kk') format('truetype'),
-    url('#{$simple-line-font-path}Simple-Line-Icons.woff?-i3a2kk') format('woff'),
-    url('#{$simple-line-font-path}Simple-Line-Icons.svg?-i3a2kk#simple-line-icons') format('svg');
+    src:    url('#{$simple-line-font-path}Simple-Line-Icons.eot?v=2.2.2');
+    src:    url('#{$simple-line-font-path}Simple-Line-Icons.eot?#iefix&v=2.2.2') format('embedded-opentype'),
+            url('#{$simple-line-font-path}Simple-Line-Icons.ttf?v=2.2.2') format('truetype'),
+            url('#{$simple-line-font-path}Simple-Line-Icons.woff2?v=2.2.2') format('woff2'),
+            url('#{$simple-line-font-path}Simple-Line-Icons.woff?v=2.2.2') format('woff'),
+            url('#{$simple-line-font-path}Simple-Line-Icons.svg?v=2.2.2#simple-line-icons') format('svg');
     font-weight: normal;
     font-style: normal;
   }
 }
 
-[class^=""], [class*=" "] {
-  font-family: '#{$simple-line-font-family}';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+.#{$simple-line-icon-prefix} {
+  &user,
+  &people,
+  &user-female,
+  &user-follow,
+  &user-following,
+  &user-unfollow,
+  &login,
+  &logout,
+  &emotsmile,
+  &phone,
+  &call-end,
+  &call-in,
+  &call-out,
+  &map,
+  &location-pin,
+  &direction,
+  &directions,
+  &compass,
+  &layers,
+  &menu,
+  &list,
+  &options-vertical,
+  &options,
+  &arrow-down,
+  &arrow-left,
+  &arrow-right,
+  &arrow-up,
+  &arrow-up-circle,
+  &arrow-left-circle,
+  &arrow-right-circle,
+  &arrow-down-circle,
+  &check,
+  &clock,
+  &plus,
+  &close,
+  &trophy,
+  &screen-smartphone,
+  &screen-desktop,
+  &plane,
+  &notebook,
+  &mustache,
+  &mouse,
+  &magnet,
+  &energy,
+  &disc,
+  &cursor,
+  &cursor-move,
+  &crop,
+  &chemistry,
+  &speedometer,
+  &shield,
+  &screen-tablet,
+  &magic-wand,
+  &hourglass,
+  &graduation,
+  &ghost,
+  &game-controller,
+  &fire,
+  &eyeglass,
+  &envelope-open,
+  &envelope-letter,
+  &bell,
+  &badge,
+  &anchor,
+  &wallet,
+  &vector,
+  &speech,
+  &puzzle,
+  &printer,
+  &present,
+  &playlist,
+  &pin,
+  &picture,
+  &handbag,
+  &globe-alt,
+  &globe,
+  &folder-alt,
+  &folder,
+  &film,
+  &feed,
+  &drop,
+  &drawar,
+  &docs,
+  &doc,
+  &diamond,
+  &cup,
+  &calculator,
+  &bubbles,
+  &briefcase,
+  &book-open,
+  &basket-loaded,
+  &basket,
+  &bag,
+  &action-undo,
+  &action-redo,
+  &wrench,
+  &umbrella,
+  &trash,
+  &tag,
+  &support,
+  &frame,
+  &size-fullscreen,
+  &size-actual,
+  &shuffle,
+  &share-alt,
+  &share,
+  &rocket,
+  &question,
+  &pie-chart,
+  &pencil,
+  &note,
+  &loop,
+  &home,
+  &grid,
+  &graph,
+  &microphone,
+  &music-tone-alt,
+  &music-tone,
+  &earphones-alt,
+  &earphones,
+  &equalizer,
+  &like,
+  &dislike,
+  &control-start,
+  &control-rewind,
+  &control-play,
+  &control-pause,
+  &control-forward,
+  &control-end,
+  &volume-1,
+  &volume-2,
+  &volume-off,
+  &calendar,
+  &bulb,
+  &chart,
+  &ban,
+  &bubble,
+  &camrecorder,
+  &camera,
+  &cloud-download,
+  &cloud-upload,
+  &envelope,
+  &eye,
+  &flag,
+  &heart,
+  &info,
+  &key,
+  &link,
+  &lock,
+  &lock-open,
+  &magnifier,
+  &magnifier-add,
+  &magnifier-remove,
+  &paper-clip,
+  &paper-plane,
+  &power,
+  &refresh,
+  &reload,
+  &settings,
+  &star,
+  &symble-female,
+  &symbol-male,
+  &target,
+  &credit-card,
+  &paypal,
+  &social-tumblr,
+  &social-twitter,
+  &social-facebook,
+  &social-instagram,
+  &social-linkedin,
+  &social-pinterest,
+  &social-github,
+  &social-gplus,
+  &social-reddit,
+  &social-skype,
+  &social-dribbble,
+  &social-behance,
+  &social-foursqare,
+  &social-soundcloud,
+  &social-spotify,
+  &social-stumbleupon,
+  &social-youtube,
+  &social-dropbox {
+    font-family: '#{$simple-line-font-family}';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ }
 }
 
 .#{$simple-line-icon-prefix}user:before {
@@ -271,7 +456,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e01e";
 }
 
-.#{$simple-line-icon-prefix}envolope-letter:before {
+.#{$simple-line-icon-prefix}envelope-letter:before {
   content: "\e01f";
 }
 
@@ -559,7 +744,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e0a1";
 }
 
-.#{$simple-line-icon-prefix}calender:before {
+.#{$simple-line-icon-prefix}calendar:before {
   content: "\e075";
 }
 
@@ -595,7 +780,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e084";
 }
 
-.#{$simple-line-icon-prefix}envolope:before {
+.#{$simple-line-icon-prefix}envelope:before {
   content: "\e086";
 }
 
@@ -711,7 +896,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e60a";
 }
 
-.#{$simple-line-icon-prefix}social-pintarest:before {
+.#{$simple-line-icon-prefix}social-pinterest:before {
   content: "\e60b";
 }
 
