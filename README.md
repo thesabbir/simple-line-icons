@@ -12,15 +12,18 @@ Preview & Docs
 
 Installation
 ====
-
-via bower
+via [cdnjs](http://cdnjs.com/libraries/simple-line-icons)
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.3/css/simple-line-icons.css">
+```
+via [bower](http://bower.io/search/?q=simple-line-icons)
 
 ```shell
 
 bower install simple-line-icons --save
 
 ```
-via npm
+via [npm](https://www.npmjs.com/package/simple-line-icons)
 
 ```shell
 
@@ -28,7 +31,7 @@ npm install simple-line-icons --save
 
 ```
 
-Or, you can also clone or download this repository as zip.
+Or, you can also clone or [download this repository](https://github.com/thesabbir/simple-line-icons/archive/master.zip) as zip.
 
 
 Customizing LESS/SASS variables
