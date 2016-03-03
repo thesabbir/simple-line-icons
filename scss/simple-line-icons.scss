@@ -100,7 +100,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &film,
   &feed,
   &drop,
-  &drawar,
+  &drawer,
   &docs,
   &doc,
   &diamond,
@@ -179,7 +179,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &reload,
   &settings,
   &star,
-  &symble-female,
+  &symbol-female,
   &symbol-male,
   &target,
   &credit-card,
@@ -540,7 +540,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e03e";
 }
 
-.#{$simple-line-icon-prefix}drawar:before {
+.#{$simple-line-icon-prefix}drawer:before {
   content: "\e03f";
 }
 
@@ -856,7 +856,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e09b";
 }
 
-.#{$simple-line-icon-prefix}symble-female:before {
+.#{$simple-line-icon-prefix}symbol-female:before {
   content: "\e09c";
 }
 
