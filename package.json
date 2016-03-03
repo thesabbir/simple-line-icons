@@ -1,6 +1,6 @@
 {
   "name": "simple-line-icons",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Simple and elegent line icons.",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,5 @@
   "bugs": {
     "url": "https://github.com/thesabbir/simple-line-icons/issues"
   },
-  "homepage": "https://github.com/thesabbir/simple-line-icons"
+  "homepage": "https://thesabbir.github.io/simple-line-icons"
 }
