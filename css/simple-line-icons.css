@@ -1,11 +1,7 @@
 @font-face {
   font-family: 'simple-line-icons';
-  src:  url('../fonts/Simple-Line-Icons.eot?v=2.2.2');
-  src:  url('../fonts/Simple-Line-Icons.eot?#iefix&v=2.2.2') format('embedded-opentype'),
-        url('../fonts/Simple-Line-Icons.ttf?v=2.2.2') format('truetype'),
-        url('../fonts/Simple-Line-Icons.woff2?v=2.2.2') format('woff2'),
-        url('../fonts/Simple-Line-Icons.woff?v=2.2.2') format('woff'),
-        url('../fonts/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons') format('svg');
+  src: url('../fonts/Simple-Line-Icons.eot?v=2.2.2');
+  src: url('../fonts/Simple-Line-Icons.eot?#iefix&v=2.2.2') format('embedded-opentype'), url('../fonts/Simple-Line-Icons.ttf?v=2.2.2') format('truetype'), url('../fonts/Simple-Line-Icons.woff2?v=2.2.2') format('woff2'), url('../fonts/Simple-Line-Icons.woff?v=2.2.2') format('woff'), url('../fonts/Simple-Line-Icons.svg?v=2.2.2#simple-line-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -94,7 +90,7 @@
 .icon-film,
 .icon-feed,
 .icon-drop,
-.icon-drawar,
+.icon-drawer,
 .icon-docs,
 .icon-doc,
 .icon-diamond,
@@ -173,7 +169,7 @@
 .icon-reload,
 .icon-settings,
 .icon-star,
-.icon-symble-female,
+.icon-symbol-female,
 .icon-symbol-male,
 .icon-target,
 .icon-credit-card,
@@ -450,7 +446,7 @@
 .icon-drop:before {
   content: "\e03e";
 }
-.icon-drawar:before {
+.icon-drawer:before {
   content: "\e03f";
 }
 .icon-docs:before {
@@ -687,7 +683,7 @@
 .icon-star:before {
   content: "\e09b";
 }
-.icon-symble-female:before {
+.icon-symbol-female:before {
   content: "\e09c";
 }
 .icon-symbol-male:before {
