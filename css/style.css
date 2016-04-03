@@ -66,3 +66,8 @@ body {
 .quick-search input:focus + i {
     color: #999;
 }
+.small-icons, .small-icons .icons {font-size: 8pt; vertical-align: middle;}
+.medium-icons {vertical-align: middle;}
+.large-icons, .large-icons .icons {font-size: 22pt; vertical-align: middle;}
+.font-size-changer a {text-decoration: none; border: 1px solid #fff; border-radius: 3px; display: inline-block; padding: 5px; vertical-align: middle;}
+.font-size-changer a.active {border-color: #999; color: #333;}

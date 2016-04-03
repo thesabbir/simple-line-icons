@@ -13,4 +13,10 @@ $(document).ready(function() {
                 return $(this).html().trim().indexOf(srch) != -1;
             }).show();
     });
+    $(".font-size-changer a").click(function (e) {
+        e.preventDefault();
+        $(".font-size-changer .active").removeClass("active");
+        $(".icon-preview-box").removeClass("small-icons medium-icons large-icons").addClass($(this).attr("class"));
+        $(this).addClass("active");
+    });
 });
