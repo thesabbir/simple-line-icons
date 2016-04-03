@@ -42,3 +42,27 @@
 body {
     font-family: "Helvetica Neue", "Roboto", sans-serif;
 }
+.quick-search {
+    width: 200px;
+    margin: 25px auto;
+    position: relative;
+}
+.quick-search i {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    color: #ccc;
+}
+.quick-search input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+    text-indent: 22px;
+    width: 100%;
+}
+.quick-search input:focus {
+    border-color: #999;
+}
+.quick-search input:focus + i {
+    color: #999;
+}
