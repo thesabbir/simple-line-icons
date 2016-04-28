@@ -14,7 +14,7 @@ Installation
 ====
 via [cdnjs](http://cdnjs.com/libraries/simple-line-icons)
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.5/css/simple-line-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.6/css/simple-line-icons.css">
 ```
 via [bower](http://bower.io/search/?q=simple-line-icons)
 
