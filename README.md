@@ -14,7 +14,7 @@ Installation
 ====
 via [cdnjs](http://cdnjs.com/libraries/simple-line-icons)
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.5/css/simple-line-icons.css">
 ```
 via [bower](http://bower.io/search/?q=simple-line-icons)
 
@@ -60,9 +60,9 @@ Credits
 
 Contributors
 ====
-[Check Here](https://github.com/thesabbir/simple-line-icons/graphs/contributors)!
+[Check Here](https://github.com/thesabbir/simple-line-icons/graphs/contributors)
 
 License
 ====
 You're free to use the webfont in a template/theme intended for sale on marketplaces like Themeforest.
-CSS, SCSS & LESS files are under [MIT] (http://opensource.org/licenses/MIT) License.
+CSS, SCSS & LESS files are under [MIT License] (/LICENSE.md).
