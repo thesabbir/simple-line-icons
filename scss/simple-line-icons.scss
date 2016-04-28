@@ -8,7 +8,7 @@ $simple-line-icon-prefix: "icon-" !default;
   @font-face {
     font-family: '#{$simple-line-font-family}';
     src:    url('#{$simple-line-font-path}Simple-Line-Icons.eot?v=2.2.2');
-    src:    url('#{$simple-line-font-path}Simple-Line-Icons.eot?#iefix&v=2.2.2') format('embedded-opentype'),
+    src:    url('#{$simple-line-font-path}Simple-Line-Icons.eot?v=2.2.2#iefix') format('embedded-opentype'),
             url('#{$simple-line-font-path}Simple-Line-Icons.ttf?v=2.2.2') format('truetype'),
             url('#{$simple-line-font-path}Simple-Line-Icons.woff2?v=2.2.2') format('woff2'),
             url('#{$simple-line-font-path}Simple-Line-Icons.woff?v=2.2.2') format('woff'),
