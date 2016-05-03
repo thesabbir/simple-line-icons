@@ -43,6 +43,7 @@
 .icon-check,
 .icon-clock,
 .icon-plus,
+.icon-minus,
 .icon-close,
 .icon-trophy,
 .icon-screen-smartphone,
@@ -304,6 +305,9 @@
 }
 .icon-plus:before {
   content: "\e095";
+}
+.icon-minus:before {
+  content: "\e615";
 }
 .icon-close:before {
   content: "\e082";

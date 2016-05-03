@@ -53,6 +53,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &check,
   &clock,
   &plus,
+  &minus,
   &close,
   &trophy,
   &screen-smartphone,
@@ -350,6 +351,10 @@ $simple-line-icon-prefix: "icon-" !default;
 
 .#{$simple-line-icon-prefix}plus:before {
   content: "\e095";
+}
+
+.#{$simple-line-icon-prefix}minus:before {
+  content: "\e615";
 }
 
 .#{$simple-line-icon-prefix}close:before {
