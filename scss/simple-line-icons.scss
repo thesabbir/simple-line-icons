@@ -193,7 +193,7 @@ $simple-line-icon-prefix: "icon-" !default;
   &social-linkedin,
   &social-pinterest,
   &social-github,
-  &social-gplus,
+  &social-google,
   &social-reddit,
   &social-skype,
   &social-dribbble,
@@ -914,7 +914,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e60c";
 }
 
-.#{$simple-line-icon-prefix}social-gplus:before {
+.#{$simple-line-icon-prefix}social-google:before {
   content: "\e60d";
 }
 
