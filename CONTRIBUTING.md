@@ -6,14 +6,14 @@ The following is a set of guidelines for contributing to Simple Line Icons. Thes
 
 ## Code of Conduct
 
-This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CODUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to mail@thesabbir.com.
+This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to mail@thesabbir.com.
 
 ## How Can I Contribute?
 
  - [Reporting bugs](#reporting-bugs)
  - [Suggestion enhancement](#suggestion-enhancement)
  - [Pull request](#pull-request)
- - [Improving documentations](#documentation)
+ - [Improving documentations](#documentations)
 
 
 ## Reporting bugs
