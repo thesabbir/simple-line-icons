@@ -7,7 +7,7 @@ Simple line icons with CSS, SAAS, LESS & Web-fonts files.
 
 Preview & Docs
 ===
-[https://thesabbir.github.io/simple-line-icons] (https://thesabbir.github.io/simple-line-icons)
+[https://thesabbir.github.io/simple-line-icons](https://thesabbir.github.io/simple-line-icons)
 
 
 Installation
@@ -37,7 +37,7 @@ Or, you can also clone or [download this repository](https://github.com/thesabbi
 Customizing LESS/SASS variables
 ====
 
-###LESS:
+### LESS:
 
 ```less
 @simple-line-font-path        : "/path/to/font/files";
@@ -45,7 +45,7 @@ Customizing LESS/SASS variables
 @simple-line-icon-prefix      : prefix-;
 ```
 
-###SASS:
+### SASS:
 
 ```sass
 $simple-line-font-path        : "/path/to/font/files";
@@ -62,7 +62,13 @@ Contributors
 ====
 [Check Here](https://github.com/thesabbir/simple-line-icons/graphs/contributors)
 
+Contributions
+====
+Contributions are more then welcome. Keep them coming!
+Please make sure you have read our [guide line](/CONTRIBUTING.md).
+
 License
 ====
-You're free to use the webfont in a template/theme intended for sale on marketplaces like Themeforest.
-CSS, SCSS & LESS files are under [MIT License] (/LICENSE.md).
+You're free to use the web-font in a template/theme intended for sale on marketplaces like Themeforest.
+
+CSS, SCSS & LESS files are under [MIT License](/LICENSE.md).
