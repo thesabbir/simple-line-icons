@@ -45,6 +45,7 @@
 .icon-plus,
 .icon-minus,
 .icon-close,
+.icon-organization,
 .icon-trophy,
 .icon-screen-smartphone,
 .icon-screen-desktop,
@@ -311,6 +312,9 @@
 }
 .icon-close:before {
   content: "\e082";
+}
+.icon-organization:before {
+  content: "\e616";
 }
 .icon-trophy:before {
   content: "\e006";
