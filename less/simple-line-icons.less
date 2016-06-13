@@ -6,12 +6,12 @@
 //Fonts
 @font-face {
   font-family: '@{simple-line-font-family}';
-  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.3.1');
-  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.3.1#iefix') format('embedded-opentype'),
-        url('@{simple-line-font-path}Simple-Line-Icons.woff2?v=2.3.1') format('woff2'),
-        url('@{simple-line-font-path}Simple-Line-Icons.woff?v=2.3.1') format('woff'),
-        url('@{simple-line-font-path}Simple-Line-Icons.ttf?v=2.3.1') format('truetype'),
-        url('@{simple-line-font-path}Simple-Line-Icons.svg?v=2.3.1#simple-line-icons') format('svg');
+  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.3.2');
+  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.3.2#iefix') format('embedded-opentype'),
+        url('@{simple-line-font-path}Simple-Line-Icons.woff2?v=2.3.2') format('woff2'),
+        url('@{simple-line-font-path}Simple-Line-Icons.ttf?v=2.3.2') format('truetype'),
+        url('@{simple-line-font-path}Simple-Line-Icons.woff?v=2.3.2') format('woff'),
+        url('@{simple-line-font-path}Simple-Line-Icons.svg?v=2.3.2#simple-line-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -58,6 +58,7 @@
   &plus,
   &minus,
   &close,
+  &exclamation,
   &organization,
   &trophy,
   &screen-smartphone,
@@ -363,6 +364,10 @@
 
 .@{simple-line-icon-prefix}close:before {
   content: "\e082";
+}
+
+.@{simple-line-icon-prefix}exclamation:before {
+  content: "\e617";
 }
 
 .@{simple-line-icon-prefix}organization:before {
