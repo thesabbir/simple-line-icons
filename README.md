@@ -34,6 +34,8 @@ npm install simple-line-icons --save
 Or, you can also clone or [download this repository](https://github.com/thesabbir/simple-line-icons/archive/master.zip) as zip.
 
 
+If you are a designers you can use [this creative cloud library](http://adobe.ly/2bQ48wl).
+
 Customizing LESS/SASS variables
 ====
 
