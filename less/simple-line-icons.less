@@ -6,12 +6,12 @@
 //Fonts
 @font-face {
   font-family: '@{simple-line-font-family}';
-  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.3.3');
-  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.3.3#iefix') format('embedded-opentype'),
-        url('@{simple-line-font-path}Simple-Line-Icons.woff2?v=2.3.3') format('woff2'),
-        url('@{simple-line-font-path}Simple-Line-Icons.ttf?v=2.3.3') format('truetype'),
-        url('@{simple-line-font-path}Simple-Line-Icons.woff?v=2.3.3') format('woff'),
-        url('@{simple-line-font-path}Simple-Line-Icons.svg?v=2.3.3#simple-line-icons') format('svg');
+  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.4.0');
+  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'),
+        url('@{simple-line-font-path}Simple-Line-Icons.woff2?v=2.4.0') format('woff2'),
+        url('@{simple-line-font-path}Simple-Line-Icons.ttf?v=2.4.0') format('truetype'),
+        url('@{simple-line-font-path}Simple-Line-Icons.woff?v=2.4.0') format('woff'),
+        url('@{simple-line-font-path}Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -59,7 +59,6 @@
   &minus,
   &close,
   &event,
-  &vkontakte,
   &exclamation,
   &organization,
   &trophy,
@@ -209,7 +208,9 @@
   &social-spotify,
   &social-stumbleupon,
   &social-youtube,
-  &social-dropbox {
+  &social-dropbox,
+  &social-vkontakte,
+  &social-steam {
     font-family: '@{simple-line-font-family}';
     speak: none;
     font-style: normal;
@@ -370,10 +371,6 @@
 
 .@{simple-line-icon-prefix}event:before {
   content: "\e619";
-}
-
-.@{simple-line-icon-prefix}vkontakte:before {
-  content: "\e618";
 }
 
 .@{simple-line-icon-prefix}exclamation:before {
@@ -974,4 +971,12 @@
 
 .@{simple-line-icon-prefix}social-dropbox:before {
   content: "\e00c";
+}
+
+.@{simple-line-icon-prefix}social-vkontakte:before {
+  content: "\e618";
+}
+
+.@{simple-line-icon-prefix}social-steam:before {
+  content: "\e620";
 }
