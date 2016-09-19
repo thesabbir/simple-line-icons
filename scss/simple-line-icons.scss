@@ -366,7 +366,7 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e082";
 }
 
-.@{simple-line-icon-prefix}event:before {
+.#{$simple-line-icon-prefix}event:before {
   content: "\e619";
 }
 
@@ -970,10 +970,10 @@ $simple-line-icon-prefix: "icon-" !default;
   content: "\e00c";
 }
 
-.@{simple-line-icon-prefix}social-vkontakte:before {
+.#{$simple-line-icon-prefix}social-vkontakte:before {
   content: "\e618";
 }
 
-.@{simple-line-icon-prefix}social-steam:before {
+.#{$simple-line-icon-prefix}social-steam:before {
   content: "\e620";
 }
