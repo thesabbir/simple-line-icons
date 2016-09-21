@@ -7,7 +7,7 @@ Simple line icons with CSS, SAAS, LESS & Web-fonts files.
 
 Preview & Docs
 ===
-[https://thesabbir.github.io/simple-line-icons](https://thesabbir.github.io/simple-line-icons)
+[http://simplelineicons.com](http://simplelineicons.com)
 
 
 Installation
