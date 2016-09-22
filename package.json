@@ -4,7 +4,8 @@
   "description": "Simple and elegent line icons.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "precommit": "npm test",
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/thesabbir/simple-line-icons/issues"
   },
-  "homepage": "https://thesabbir.github.io/simple-line-icons"
+  "homepage": "https://thesabbir.github.io/simple-line-icons",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-sass": "^2.3.2",
+    "husky": "^0.11.8"
+  }
 }
