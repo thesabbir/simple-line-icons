@@ -1,6 +1,6 @@
 Simple line icons
 ====
-
+[![Build Status](https://travis-ci.org/thesabbir/simple-line-icons.svg?branch=master)](https://travis-ci.org/thesabbir/simple-line-icons)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/thesabbir/simple-line-icons?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Simple line icons with CSS, SAAS, LESS & Web-fonts files.
