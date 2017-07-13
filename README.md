@@ -1,5 +1,7 @@
 Simple line icons
 ====
+![Bower version](https://img.shields.io/bower/v/simple-line-icons.svg)
+[![npm version](https://img.shields.io/npm/v/simple-line-icons.svg)](https://www.npmjs.com/package/simple-line-icons)
 [![Build Status](https://travis-ci.org/thesabbir/simple-line-icons.svg?branch=master)](https://travis-ci.org/thesabbir/simple-line-icons)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/thesabbir/simple-line-icons?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
