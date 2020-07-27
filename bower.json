@@ -1,9 +1,10 @@
 {
   "name": "simple-line-icons",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "authors": [
     "Sabbir Ahmed <sabbiirr@gmail.com>"
   ],
+
   "description": "Simple Line Icons Bower Package",
   "keywords": [
     "fonts",
@@ -12,9 +13,9 @@
     "icon"
   ],
     "main": [
-        "css/simple-line-icons.css",
-        "scss/simple-line-icons.scss",
-        "less/simple-line-icons.less"
+        "dist/styles/simple-line-icons.css",
+        "dist/styles/simple-line-icons.scss",
+        "dist/styles/simple-line-icons.less"
     ],
   "license": "MIT",
   "homepage": "https://github.com/thesabbir/simple-line-icons",

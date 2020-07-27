@@ -1,11 +1,12 @@
 {
   "name": "simple-line-icons",
-  "version": "2.4.1",
-  "description": "Simple and elegent line icons.",
-  "main": "index.js",
+  "version": "2.5.0",
+  "description": "Simple and elegant line icons.",
+  "main": "dist/styles/simple-line-icons.css",
   "scripts": {
-    "precommit": "npm test",
-    "test": "gulp test"
+    "build": "node scripts/build",
+    "docs": "node scripts/docs",
+    "postinstall": "node scripts/build"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,8 @@
   },
   "keywords": [
     "icon",
-    "simple",
+    "simple-icons",
+    "simple-line-icons",
     "line",
     "css",
     "webfont"
@@ -25,9 +27,6 @@
   },
   "homepage": "https://thesabbir.github.io/simple-line-icons",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-less": "^3.1.0",
-    "gulp-sass": "^2.3.2",
-    "husky": "^0.11.8"
+    "less": "^3.12.2"
   }
 }

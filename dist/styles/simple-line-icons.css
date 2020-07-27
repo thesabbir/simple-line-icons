@@ -1,3 +1,6 @@
+/*
+* Font Face
+*/
 @font-face {
   font-family: 'simple-line-icons';
   src: url('../fonts/Simple-Line-Icons.eot?v=2.4.0');
@@ -6,8 +9,9 @@
   font-style: normal;
 }
 /*
- Use the following CSS code if you want to have a class per icon.
- Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
+ Use the following code if you want to have a class per icon.
+ Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector,
+ but it's slower.
 */
 .icon-user,
 .icon-people,

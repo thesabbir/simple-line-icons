@@ -13,10 +13,11 @@ You can find a cheat sheet of the complete set of icons at [Simple Line Icons - 
 
 ## Installation
 
-via [cdnjs](http://cdnjs.com/libraries/simple-line-icons)
 
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+via [npm](https://www.npmjs.com/package/simple-line-icons)
+
+```bash
+npm install simple-line-icons --save
 ```
 
 via [bower](http://bower.io/search/?q=simple-line-icons)
@@ -25,11 +26,11 @@ via [bower](http://bower.io/search/?q=simple-line-icons)
 bower install simple-line-icons --save
 ```
 
-via [npm](https://www.npmjs.com/package/simple-line-icons)
-
-```bash
-npm install simple-line-icons --save
+via [cdnjs](http://cdnjs.com/libraries/simple-line-icons)
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.0/dist/styles/simple-line-icons.css" />
 ```
+
 
 Alternatively, you can also clone or [download this repository](https://github.com/thesabbir/simple-line-icons/archive/master.zip) as zip.
 

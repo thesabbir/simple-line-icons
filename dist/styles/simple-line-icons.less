@@ -1,24 +1,28 @@
 // Default Variables
-@simple-line-font-path        : "../fonts/";
-@simple-line-font-family      : "simple-line-icons";
-@simple-line-icon-prefix      : icon-;
+@simple-line-font-path: "../fonts/";
+@simple-line-font-family: "simple-line-icons";
+@simple-line-icon-prefix: icon-;
 
-//Fonts
+/*
+* Font Face
+*/
+
 @font-face {
-  font-family: '@{simple-line-font-family}';
-  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.4.0');
-  src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'),
-        url('@{simple-line-font-path}Simple-Line-Icons.woff2?v=2.4.0') format('woff2'),
-        url('@{simple-line-font-path}Simple-Line-Icons.ttf?v=2.4.0') format('truetype'),
-        url('@{simple-line-font-path}Simple-Line-Icons.woff?v=2.4.0') format('woff'),
-        url('@{simple-line-font-path}Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
+      font-family: '@{simple-line-font-family}';
+      src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.4.0');
+      src:  url('@{simple-line-font-path}Simple-Line-Icons.eot?v=2.4.0#iefix') format('embedded-opentype'),
+            url('@{simple-line-font-path}Simple-Line-Icons.woff2?v=2.4.0') format('woff2'),
+            url('@{simple-line-font-path}Simple-Line-Icons.ttf?v=2.4.0') format('truetype'),
+            url('@{simple-line-font-path}Simple-Line-Icons.woff?v=2.4.0') format('woff'),
+            url('@{simple-line-font-path}Simple-Line-Icons.svg?v=2.4.0#simple-line-icons') format('svg');
+      font-weight: normal;
+      font-style: normal;
 }
 
 /*
- Use the following CSS code if you want to have a class per icon.
- Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
+ Use the following code if you want to have a class per icon.
+ Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector,
+ but it's slower.
 */
 
 .@{simple-line-icon-prefix}  {

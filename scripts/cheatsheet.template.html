@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Simple Line Icons CheatSheet</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Simple line icons">
+    <meta name="keywords" content="simple, line, icons, icon pack, web icon">
+    <link rel="stylesheet" href="{{fontCss}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://github.com/thesabbir/simple-line-icons">Simple Line Icons </a>
+            <span class="version">{{version}}</span>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><iframe src="https://ghbtns.com/github-btn.html?user=thesabbir&repo=simple-line-icons&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe></li>
+                <li><iframe src="https://ghbtns.com/github-btn.html?user=thesabbir&repo=simple-line-icons&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt">
+    <h3 class="text-center">Cheat sheet</h3>
+    <div class="text-center font-size-changer">
+        <a href="#" class="small-icons"><i class="icon-info"></i>Small</a> &bull;
+        <a href="#" class="medium-icons active"><i class="icon-info"></i> Medium</a> &bull;
+        <a href="#" class="large-icons"><i class="icon-info"></i> Large</a>
+    </div>
+    <p class="text-center">Click on the icons to get the icon class name</p>
+    <div class="quick-search">
+        <input type="text" id="quick-search" placeholder="Search..." />
+        <i class="icon-magnifier"></i>
+    </div>
+
+
+    {{contents}}
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <p class="pull-left">Brought to you by <a href="https://twitter.com/alreadysabbir">Sabbir</a> & <a href="https://github.com/thesabbir/simple-line-icons#contributors">Contributors</a></p>
+        <p class="pull-right"><a href="https://github.com/thesabbir/simple-line-icons">Contribute!</a></p>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.code-preview').hide();
+        $('.show-code').click(function (e) {
+            $(this).children('.name').toggle();
+            $(this).children('.code-preview').toggle();
+            e.stopPropagation();
+            return false;
+        });
+        $("#quick-search").keyup(function () {
+            var srch = $(this).val().trim().toLowerCase();
+            $(".icon-preview-box").hide()
+                .filter(function () {
+                    return $(this).html().trim().toLowerCase().indexOf(srch) != -1;
+                }).show();
+        });
+        $(".font-size-changer a").click(function (e) {
+            e.preventDefault();
+            $(".font-size-changer .active").removeClass("active");
+            $(".icon-preview-box").removeClass("small-icons medium-icons large-icons").addClass($(this).attr("class"));
+            $(this).addClass("active");
+        });
+    });
+</script>
+<style>
+    .preview {
+        padding: 15px 0;
+        position: relative;
+        height: 100px;
+    }
+
+    .icons {
+        font-size: 18px;
+        padding-right: 7px;
+    }
+
+    .code-preview {
+        display: none;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .show-code {
+        color: #101010;
+    }
+    .mt {
+        padding-top: 50px;
+    }
+
+    .show-code:hover, .show-code:active, .show-code:focus {
+        color: #252525;
+        text-decoration: none;
+    }
+    .footer {
+        background: #efefef;
+        min-height: 60px;
+        padding: 20px;
+    }
+    .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .navbar-nav > li > iframe {
+        margin-top: 13px;
+    }
+    body {
+        font-family: "Helvetica Neue", "Roboto", sans-serif;
+    }
+    .quick-search {
+        width: 200px;
+        margin: 25px auto;
+        position: relative;
+    }
+    .quick-search i {
+        position: absolute;
+        left: 7px;
+        top: 7px;
+        color: #ccc;
+    }
+    .quick-search input {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 3px;
+        text-indent: 22px;
+        width: 100%;
+    }
+    .quick-search input:focus {
+        border-color: #999;
+    }
+    .quick-search input:focus + i {
+        color: #999;
+    }
+    .small-icons, .small-icons .icons {font-size: 8pt; vertical-align: middle;}
+    .medium-icons {vertical-align: middle;}
+    .large-icons, .large-icons .icons {font-size: 22pt; vertical-align: middle;}
+    .font-size-changer a {text-decoration: none; border: 1px solid #fff; border-radius: 3px; display: inline-block; padding: 5px; vertical-align: middle;}
+    .font-size-changer a.active {border-color: #999; color: #333;}
+    .version {
+        font-size: 8px;
+        color: #eeeeee;
+    }
+</style>
+</body>
+</html>
