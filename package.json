@@ -4,6 +4,7 @@
   "description": "Simple and elegant line icons.",
   "main": "dist/styles/simple-line-icons.css",
   "scripts": {
+    "test": "node scripts/build",
     "build": "node scripts/build",
     "docs": "node scripts/docs",
     "postinstall": "node scripts/build"
