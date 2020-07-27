@@ -33,6 +33,7 @@ async function generateCheatSheet() {
   const cssPath = path.join(extension(paths.distLessFile, ".css"));
   const css = await fs.readFile(cssPath, "UTF8");
   const regex = /\.(icon-(?:\w+(?:-)?)+):before\s+{\s*content:\s*"(.+)";\s+}/g;
+  const cheatSheetCssFile = "../dist/styles/simple-line-icons.css";
   const icons = [];
 
   css.match(regex).forEach((item) => {
@@ -56,7 +57,7 @@ async function generateCheatSheet() {
 
   const html = (await fs.readFile(paths.chTemplate, "UTF8"))
     .replace(/{{version}}/g, packageJSON.version)
-    .replace(/{{fontCss}}/g, "../styles/simple-line-icons.css")
+    .replace(/{{fontCss}}/g, cheatSheetCssFile)
     .replace(/{{contents}}/g, iconHTML);
   await fs.writeFile(paths.distDocIndex, html);
 }

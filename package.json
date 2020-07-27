@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node scripts/build",
     "build": "node scripts/build",
-    "docs": "node scripts/docs",
+    "postbuild": "cp -r dist/ docs/",
     "postinstall": "node scripts/build"
   },
   "repository": {

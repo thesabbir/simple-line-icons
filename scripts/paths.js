@@ -17,8 +17,8 @@ const distStyles = path.join(dist, "styles");
 const distLessFile = path.join(distStyles, "simple-line-icons.less");
 const fontsDist = path.resolve(dist, "fonts");
 
-const distDoc = path.resolve(dist, "docs");
-const distDocIndex = path.resolve(dist, "docs", "index.html");
+const distDoc = path.resolve(root, "docs");
+const distDocIndex = path.resolve(distDoc, "index.html");
 // cheetsheet
 const chTemplate = path.resolve(__dirname, "cheatsheet.template.html");
 
