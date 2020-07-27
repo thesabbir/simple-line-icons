@@ -3,7 +3,6 @@
 ![Bower version](https://img.shields.io/bower/v/simple-line-icons.svg)
 [![npm version](https://img.shields.io/npm/v/simple-line-icons.svg)](https://www.npmjs.com/package/simple-line-icons)
 [![Build Status](https://travis-ci.org/thesabbir/simple-line-icons.svg?branch=master)](https://travis-ci.org/thesabbir/simple-line-icons)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/thesabbir/simple-line-icons?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Simple line icons with CSS, SASS, LESS & Web-fonts files.
 
@@ -27,14 +26,10 @@ bower install simple-line-icons --save
 ```
 
 via [cdnjs](http://cdnjs.com/libraries/simple-line-icons)
-```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.0/dist/styles/simple-line-icons.css" />
-```
-
 
 Alternatively, you can also clone or [download this repository](https://github.com/thesabbir/simple-line-icons/archive/master.zip) as zip.
 
-If you are a designer, you can use this [creative cloud library](http://adobe.ly/2bQ48wl).
+If you are a designer, you can use this [creative cloud library](http://adobe.ly/2bQ48wl) in your project.
 
 ## Customizing LESS/SASS variables
 
