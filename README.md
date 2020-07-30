@@ -8,7 +8,7 @@ Simple line icons with CSS, SASS, LESS & Web-fonts files.
 
 ## Preview & Docs
 
-You can find a cheat sheet of the complete set of icons at [Simple Line Icons - GitHub Pages](https://simplelineicons.github.io/)
+You can find a cheat sheet of the complete set of icons at [Simple Line Icons - GitHub Pages](https://thesabbir.github.io/simple-line-icons/)
 
 ## Installation
 
