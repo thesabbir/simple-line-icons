@@ -30,6 +30,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><iframe src="https://ghbtns.com/github-btn.html?user=thesabbir&repo=simple-line-icons&type=fork&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe></li>
                 <li><iframe src="https://ghbtns.com/github-btn.html?user=thesabbir&repo=simple-line-icons&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe></li>
+                <li class="download"><a href="https://github.com/thesabbir/simple-line-icons/archive/master.zip" class="btn btn-success btn-sm">Download</a></li>
             </ul>
         </div>
     </div>
@@ -55,7 +56,10 @@
 <footer class="footer">
     <div class="container">
         <p class="pull-left">Brought to you by <a href="https://twitter.com/alreadysabbir">Sabbir</a> & <a href="https://github.com/thesabbir/simple-line-icons#contributors">Contributors</a></p>
-        <p class="pull-right"><a href="https://github.com/thesabbir/simple-line-icons">Contribute!</a></p>
+        <p class="pull-right">
+            <a href="https://cdnjs.com/libraries/simple-line-icons" class="use-cdn" title="Go to project page on cdnjs.com" target="_blank">Use CDN</a>
+            <a href="https://github.com/thesabbir/simple-line-icons">Contribute!</a>
+        </p>
     </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -161,6 +165,19 @@
     .version {
         font-size: 8px;
         color: #eeeeee;
+    }
+    .download {
+        padding: 8px 0 0 8px;
+    }
+
+    .download .btn {
+        padding-right: 25px;
+        padding-left: 25px;
+        height: 32px;
+        line-height: 0;
+    }
+    .use-cdn {
+        margin-right: 2rem;
     }
 </style>
 </body>
