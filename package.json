@@ -27,7 +27,7 @@
     "url": "https://github.com/thesabbir/simple-line-icons/issues"
   },
   "homepage": "https://thesabbir.github.io/simple-line-icons",
-  "devDependencies": {
+  "dependencies": {
     "less": "^3.12.2"
   }
 }
