@@ -33,7 +33,7 @@ async function generateCheatSheet() {
   const cssPath = path.join(extension(paths.distLessFile, ".css"));
   const css = await fs.readFile(cssPath, "UTF8");
   const regex = /\.(icon-(?:\w+(?:-)?)+):before\s+{\s*content:\s*"(.+)";\s+}/g;
-  const cheatSheetCssFile = "../styles/simple-line-icons.css";
+  const cheatSheetCssFile = "styles/simple-line-icons.css";
   const icons = [];
 
   css.match(regex).forEach((item) => {
