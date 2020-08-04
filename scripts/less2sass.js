@@ -93,7 +93,7 @@ Less2Sass.prototype.convertVariables = function() {
     // Matches any @ that doesn't have 'media ' or 'import ' after it.
     var atRegex = /@(?!(media|import|mixin|font-face|keyframes)(\s|\())/g;
 
-    this.file = this.file.replace(atRegex, '$');
+    this.file = this.file.replace(atRegex, '$').replace(/;\/\/default/g, ' !default;');
 
     return this;
 };
