@@ -1,5 +1,6 @@
 // http://stackoverflow.com/questions/14970224/anyone-know-of-a-good-way-to-convert-from-less-to-sass
 // https://github.com/ekryski/less2sass/releases/tag/v1.0.3
+// For any deviations, look for comments prefixed with "SIMPLE LINE ICONS DEVIATION:".
 
 function Less2Sass(){
 
@@ -91,9 +92,35 @@ Less2Sass.prototype.convertInterpolatedVariables = function() {
 
 Less2Sass.prototype.convertVariables = function() {
     // Matches any @ that doesn't have 'media ' or 'import ' after it.
-    var atRegex = /@(?!(media|import|mixin|font-face|keyframes)(\s|\())/g;
+    //
+    // SIMPLE LINE ICONS DEVIATION:
+    // Additionally, we capture the variable name and full variable declaration
+    // for "simple-line-icons"-specific logic for creating default variables
+    // (because LESS doesn't have the concept of default variable declarations).
+    //
+    // For example, if we have a LESS variable that looked like:
+    //
+    //      @simple-line-font-path: "../fonts/";
+    //
+    // The "varDeclaration" group would be 'simple-line-font-path: "../fonts/"' and the varName
+    // group would be "simple-line-font-path".
+    var atRegex = /@(?!(media|import|mixin|font-face|keyframes)(\s|\())(?<varDeclaration>(?<varName>([^:]*))[^;]*)/g;
 
-    this.file = this.file.replace(atRegex, '$');
+    // SIMPLE LINE ICONS DEVIATION:
+    // The "replace" call has been modified so we can append the "!default" string for our
+    // overridable variables. We specifically look for a limited set of varNames so we don't
+    // accidentally default a variable that shouldn't be overridable.
+    this.file = this.file.replace(atRegex, function (match, p1, p2, p3, p4, p5, offset, string, groups) {
+        if (
+            groups.varName === 'simple-line-font-path' ||
+            groups.varName === 'simple-line-font-family' ||
+            groups.varName === 'simple-line-icon-prefix'
+        ) {
+            return `$${groups.varDeclaration} !default`
+        }
+
+        return `$${match}`
+    });
 
     return this;
 };
