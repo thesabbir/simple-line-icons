@@ -39,6 +39,7 @@ async function clearLegacyDist() {
   ]);
 }
 async function legacyDist() {
+  await clearLegacyDist();
   try {
     await Promise.all([
       fs.mkdir(paths.legacyCSS),
@@ -109,8 +110,7 @@ async function build() {
     copyFonts(paths.fontsSrc, paths.distFonts),
     compileStyleSheets(),
   ]);
-  await Promise.all([clearLegacyDist(), legacyDist()]);
-  await generateCheatSheet();
+  await Promise.all([legacyDist(), generateCheatSheet()]);
 }
 
 (async () => await build())();
