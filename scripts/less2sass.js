@@ -94,32 +94,30 @@ Less2Sass.prototype.convertVariables = function() {
     // Matches any @ that doesn't have 'media ' or 'import ' after it.
     //
     // SIMPLE LINE ICONS DEVIATION:
-    // Additionally, we capture the variable name and full variable declaration
-    // for "simple-line-icons"-specific logic for creating default variables
-    // (because LESS doesn't have the concept of default variable declarations).
+    // Additionally, we capture the variable name, full variable declaration and if this
+    // should be considered a default variable for "simple-line-icons"-specific logic for
+    // creating default variables (because LESS doesn't have the concept of default variable declarations).
     //
     // For example, if we have a LESS variable that looked like:
     //
-    //      @simple-line-font-path: "../fonts/";
+    //      @simple-line-font-path: "../fonts/"; // default
     //
-    // The "varDeclaration" group would be 'simple-line-font-path: "../fonts/"' and the varName
-    // group would be "simple-line-font-path".
-    var atRegex = /@(?!(media|import|mixin|font-face|keyframes)(\s|\())(?<varDeclaration>(?<varName>([^:]*))[^;]*)/g;
+    // The "varDeclaration" group would be 'simple-line-font-path: "../fonts/"', the varName
+    // group would be "simple-line-font-path" and the isDefault group would have content (indicating
+    // that this should be output as a default variable).
+    var varRegex = /@(?!(media|import|mixin|font-face|keyframes)(\s|\())(?<varDeclaration>(?<varName>([^:]*))[^;]*);(?<isDefault>\s*\/\/\s*default)?/g;
 
     // SIMPLE LINE ICONS DEVIATION:
     // The "replace" call has been modified so we can append the "!default" string for our
-    // overridable variables. We specifically look for a limited set of varNames so we don't
-    // accidentally default a variable that shouldn't be overridable.
-    this.file = this.file.replace(atRegex, function (match, p1, p2, p3, p4, p5, offset, string, groups) {
-        if (
-            groups.varName === 'simple-line-font-path' ||
-            groups.varName === 'simple-line-font-family' ||
-            groups.varName === 'simple-line-icon-prefix'
-        ) {
-            return `$${groups.varDeclaration} !default`
+    // overridable variables. We only output a variable with the "!default" string if the
+    // source had a "default" comment.
+    this.file = this.file.replace(varRegex, function (match, p1, p2, p3, p4, p5, p6, offset, string, groups) {
+        if (groups.isDefault) {
+            return `$${groups.varDeclaration} !default;`
         }
 
-        return `$${match}`
+        // The "match" includes the "@" symbol which we want to convert to a "$" for SASS.
+        return `$${match.substring(1)}`
     });
 
     return this;
