@@ -1,13 +1,12 @@
 {
   "name": "simple-line-icons",
-  "version": "2.5.2",
+  "version": "2.5.4",
   "description": "Simple and elegant line icons.",
   "main": "dist/styles/simple-line-icons.css",
   "scripts": {
     "test": "node scripts/build",
     "build": "node scripts/build",
-    "postbuild": "cp -r dist/ docs/",
-    "postinstall": "node scripts/build"
+    "postbuild": "cp -r dist/ docs/"
   },
   "repository": {
     "type": "git",
