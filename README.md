@@ -58,6 +58,8 @@ $simple-line-icon-prefix   : "prefix-";
 
 [Check Here](https://github.com/thesabbir/simple-line-icons/graphs/contributors)
 
+![Contributors](https://contrib.rocks/image?repo=simplelineicons/simplelineicons.github.io)
+
 ## Contributions
 
 Contributions are more then welcome. Keep them coming!
