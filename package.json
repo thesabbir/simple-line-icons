@@ -3,10 +3,16 @@
   "version": "2.5.5",
   "description": "Simple and elegant line icons.",
   "main": "dist/styles/simple-line-icons.css",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "test": "node scripts/build",
     "build": "node scripts/build",
-    "postbuild": "cp -r dist/ docs/"
+    "postbuild": "cp -r dist/ docs/",
+    "build:manifest": "node scripts/build-manifest.js",
+    "build:svgs": "node scripts/build-svgs.js",
+    "build:react": "npm run build --workspace @simple-line-icons/react"
   },
   "repository": {
     "type": "git",

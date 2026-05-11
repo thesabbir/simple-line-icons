@@ -42,6 +42,17 @@ Everything else is build output and must not be hand-edited: `dist/`, `docs/inde
 3. Run `npm run build` and commit the regenerated `dist/`, `docs/`, and legacy top-level folders along with the source changes (the build produces a lot of churn — that's expected and is committed).
 4. Per CONTRIBUTING.md, include a screenshot of the icon in the PR. Never edit one stylesheet format directly to "fix" it — change the LESS source and rebuild so all formats stay consistent.
 
+## v3 workstream (SVG + framework components)
+
+A second, additive pipeline is being built alongside the webfont. It does **not** touch `scripts/build.js`, `dist/styles/`, the legacy top-level folders, or the cheat sheet — those keep working as-is for 2.x consumers.
+
+- `scripts/icons.js` — shared loader. Parses the `content: "\eXXX"` codepoints out of `src/styles/simple-line-icons.less`, pairs each with its `src/svgs/*.svg` file, extracts the single `<path d="…">`, and returns `[{ name, codepoint, file, d }]`. Five SVG files are misspelled relative to their LESS class name (`calender`→`calendar`, `envolope`→`envelope`, `envolope-letter`→`envelope-letter`, `social-pintarest`→`social-pinterest`, `symble-female`→`symbol-female`); the `SVG_FILE_OVERRIDES` map in this file is the single place that reconciles them. Fix the filenames there too if you ever rename the SVGs.
+- `npm run build:manifest` → writes `icons.json` (committed, treated like a lockfile): the canonical name ↔ codepoint ↔ source-file index that every v3 output is generated from.
+- `npm run build:svgs` → writes `dist/svgs/<name>.svg` (canonical names, `fill="currentColor"`) and `dist/svgs/sprite.svg`. Note: the legacy `npm run build` does `rm -rf dist/`, so if you run both, run `build:svgs` last.
+- `packages/*` is an npm workspace. `packages/react` = `@simple-line-icons/react`: `src/createIcon.tsx` is the one hand-written helper; `scripts/codegen.mjs` (run by `npm run build:react`, or `npm run codegen` in the package) regenerates `src/icons/Icon<PascalName>.tsx` (one tree-shakeable component per icon, committed) and the `src/index.ts` barrel. Components render the source paths verbatim on the original `0 0 1024 1024` viewBox with `fill: currentColor` — these are filled outline glyphs, not strokes, so there is intentionally no `strokeWidth` prop.
+
+The icons themselves still come from `src/svgs/` + `src/fonts/`; the v3 build only ever reads those, never edits them.
+
 ## Releasing
 
-Bump `version` in `package.json` (it flows into the cheat sheet via `{{version}}`); `bower.json` carries its own version field. `History.md` is a hand-maintained changelog.
+Bump `version` in `package.json` (it flows into the cheat sheet via `{{version}}` and into `icons.json`); `bower.json` carries its own version field. Each `packages/*` package has its own `version` (currently `3.0.0-alpha.x`). `History.md` is a hand-maintained changelog.

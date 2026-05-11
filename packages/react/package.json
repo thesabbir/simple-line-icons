@@ -1,0 +1,36 @@
+{
+  "name": "@simple-line-icons/react",
+  "version": "3.0.0-alpha.0",
+  "description": "Simple Line Icons as tree-shakeable React components.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thesabbir/simple-line-icons.git",
+    "directory": "packages/react"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "codegen": "node scripts/codegen.mjs",
+    "build": "npm run codegen && tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "react": "^18.3.1",
+    "typescript": "^5.4.0"
+  }
+}

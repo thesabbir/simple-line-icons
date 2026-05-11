@@ -1,0 +1,953 @@
+{
+  "name": "simple-line-icons",
+  "version": "2.5.5",
+  "count": 189,
+  "viewBox": "0 0 1024 1024",
+  "icons": [
+    {
+      "name": "action-redo",
+      "codepoint": "e051",
+      "file": "src/svgs/action-redo.svg"
+    },
+    {
+      "name": "action-undo",
+      "codepoint": "e050",
+      "file": "src/svgs/action-undo.svg"
+    },
+    {
+      "name": "anchor",
+      "codepoint": "e029",
+      "file": "src/svgs/anchor.svg"
+    },
+    {
+      "name": "arrow-down",
+      "codepoint": "e604",
+      "file": "src/svgs/arrow-down.svg"
+    },
+    {
+      "name": "arrow-down-circle",
+      "codepoint": "e07b",
+      "file": "src/svgs/arrow-down-circle.svg"
+    },
+    {
+      "name": "arrow-left",
+      "codepoint": "e605",
+      "file": "src/svgs/arrow-left.svg"
+    },
+    {
+      "name": "arrow-left-circle",
+      "codepoint": "e07a",
+      "file": "src/svgs/arrow-left-circle.svg"
+    },
+    {
+      "name": "arrow-right",
+      "codepoint": "e606",
+      "file": "src/svgs/arrow-right.svg"
+    },
+    {
+      "name": "arrow-right-circle",
+      "codepoint": "e079",
+      "file": "src/svgs/arrow-right-circle.svg"
+    },
+    {
+      "name": "arrow-up",
+      "codepoint": "e607",
+      "file": "src/svgs/arrow-up.svg"
+    },
+    {
+      "name": "arrow-up-circle",
+      "codepoint": "e078",
+      "file": "src/svgs/arrow-up-circle.svg"
+    },
+    {
+      "name": "badge",
+      "codepoint": "e028",
+      "file": "src/svgs/badge.svg"
+    },
+    {
+      "name": "bag",
+      "codepoint": "e04f",
+      "file": "src/svgs/bag.svg"
+    },
+    {
+      "name": "ban",
+      "codepoint": "e07c",
+      "file": "src/svgs/ban.svg"
+    },
+    {
+      "name": "basket",
+      "codepoint": "e04e",
+      "file": "src/svgs/basket.svg"
+    },
+    {
+      "name": "basket-loaded",
+      "codepoint": "e04d",
+      "file": "src/svgs/basket-loaded.svg"
+    },
+    {
+      "name": "bell",
+      "codepoint": "e027",
+      "file": "src/svgs/bell.svg"
+    },
+    {
+      "name": "book-open",
+      "codepoint": "e04c",
+      "file": "src/svgs/book-open.svg"
+    },
+    {
+      "name": "briefcase",
+      "codepoint": "e04b",
+      "file": "src/svgs/briefcase.svg"
+    },
+    {
+      "name": "bubble",
+      "codepoint": "e07d",
+      "file": "src/svgs/bubble.svg"
+    },
+    {
+      "name": "bubbles",
+      "codepoint": "e04a",
+      "file": "src/svgs/bubbles.svg"
+    },
+    {
+      "name": "bulb",
+      "codepoint": "e076",
+      "file": "src/svgs/bulb.svg"
+    },
+    {
+      "name": "calculator",
+      "codepoint": "e049",
+      "file": "src/svgs/calculator.svg"
+    },
+    {
+      "name": "calendar",
+      "codepoint": "e075",
+      "file": "src/svgs/calender.svg"
+    },
+    {
+      "name": "call-end",
+      "codepoint": "e048",
+      "file": "src/svgs/call-end.svg"
+    },
+    {
+      "name": "call-in",
+      "codepoint": "e047",
+      "file": "src/svgs/call-in.svg"
+    },
+    {
+      "name": "call-out",
+      "codepoint": "e046",
+      "file": "src/svgs/call-out.svg"
+    },
+    {
+      "name": "camera",
+      "codepoint": "e07f",
+      "file": "src/svgs/camera.svg"
+    },
+    {
+      "name": "camrecorder",
+      "codepoint": "e07e",
+      "file": "src/svgs/camrecorder.svg"
+    },
+    {
+      "name": "chart",
+      "codepoint": "e077",
+      "file": "src/svgs/chart.svg"
+    },
+    {
+      "name": "check",
+      "codepoint": "e080",
+      "file": "src/svgs/check.svg"
+    },
+    {
+      "name": "chemistry",
+      "codepoint": "e026",
+      "file": "src/svgs/chemistry.svg"
+    },
+    {
+      "name": "clock",
+      "codepoint": "e081",
+      "file": "src/svgs/clock.svg"
+    },
+    {
+      "name": "close",
+      "codepoint": "e082",
+      "file": "src/svgs/close.svg"
+    },
+    {
+      "name": "cloud-download",
+      "codepoint": "e083",
+      "file": "src/svgs/cloud-download.svg"
+    },
+    {
+      "name": "cloud-upload",
+      "codepoint": "e084",
+      "file": "src/svgs/cloud-upload.svg"
+    },
+    {
+      "name": "compass",
+      "codepoint": "e045",
+      "file": "src/svgs/compass.svg"
+    },
+    {
+      "name": "control-end",
+      "codepoint": "e074",
+      "file": "src/svgs/control-end.svg"
+    },
+    {
+      "name": "control-forward",
+      "codepoint": "e073",
+      "file": "src/svgs/control-forward.svg"
+    },
+    {
+      "name": "control-pause",
+      "codepoint": "e072",
+      "file": "src/svgs/control-pause.svg"
+    },
+    {
+      "name": "control-play",
+      "codepoint": "e071",
+      "file": "src/svgs/control-play.svg"
+    },
+    {
+      "name": "control-rewind",
+      "codepoint": "e070",
+      "file": "src/svgs/control-rewind.svg"
+    },
+    {
+      "name": "control-start",
+      "codepoint": "e06f",
+      "file": "src/svgs/control-start.svg"
+    },
+    {
+      "name": "credit-card",
+      "codepoint": "e025",
+      "file": "src/svgs/credit-card.svg"
+    },
+    {
+      "name": "crop",
+      "codepoint": "e024",
+      "file": "src/svgs/crop.svg"
+    },
+    {
+      "name": "cup",
+      "codepoint": "e044",
+      "file": "src/svgs/cup.svg"
+    },
+    {
+      "name": "cursor",
+      "codepoint": "e06e",
+      "file": "src/svgs/cursor.svg"
+    },
+    {
+      "name": "cursor-move",
+      "codepoint": "e023",
+      "file": "src/svgs/cursor-move.svg"
+    },
+    {
+      "name": "diamond",
+      "codepoint": "e043",
+      "file": "src/svgs/diamond.svg"
+    },
+    {
+      "name": "direction",
+      "codepoint": "e042",
+      "file": "src/svgs/direction.svg"
+    },
+    {
+      "name": "directions",
+      "codepoint": "e041",
+      "file": "src/svgs/directions.svg"
+    },
+    {
+      "name": "disc",
+      "codepoint": "e022",
+      "file": "src/svgs/disc.svg"
+    },
+    {
+      "name": "dislike",
+      "codepoint": "e06d",
+      "file": "src/svgs/dislike.svg"
+    },
+    {
+      "name": "doc",
+      "codepoint": "e085",
+      "file": "src/svgs/doc.svg"
+    },
+    {
+      "name": "docs",
+      "codepoint": "e040",
+      "file": "src/svgs/docs.svg"
+    },
+    {
+      "name": "drawer",
+      "codepoint": "e03f",
+      "file": "src/svgs/drawer.svg"
+    },
+    {
+      "name": "drop",
+      "codepoint": "e03e",
+      "file": "src/svgs/drop.svg"
+    },
+    {
+      "name": "earphones",
+      "codepoint": "e03d",
+      "file": "src/svgs/earphones.svg"
+    },
+    {
+      "name": "earphones-alt",
+      "codepoint": "e03c",
+      "file": "src/svgs/earphones-alt.svg"
+    },
+    {
+      "name": "emotsmile",
+      "codepoint": "e021",
+      "file": "src/svgs/emotsmile.svg"
+    },
+    {
+      "name": "energy",
+      "codepoint": "e020",
+      "file": "src/svgs/energy.svg"
+    },
+    {
+      "name": "envelope",
+      "codepoint": "e086",
+      "file": "src/svgs/envolope.svg"
+    },
+    {
+      "name": "envelope-letter",
+      "codepoint": "e01f",
+      "file": "src/svgs/envolope-letter.svg"
+    },
+    {
+      "name": "envelope-open",
+      "codepoint": "e01e",
+      "file": "src/svgs/envelope-open.svg"
+    },
+    {
+      "name": "equalizer",
+      "codepoint": "e06c",
+      "file": "src/svgs/equalizer.svg"
+    },
+    {
+      "name": "event",
+      "codepoint": "e619",
+      "file": "src/svgs/event.svg"
+    },
+    {
+      "name": "exclamation",
+      "codepoint": "e617",
+      "file": "src/svgs/exclamation.svg"
+    },
+    {
+      "name": "eye",
+      "codepoint": "e087",
+      "file": "src/svgs/eye.svg"
+    },
+    {
+      "name": "eyeglass",
+      "codepoint": "e01d",
+      "file": "src/svgs/eyeglass.svg"
+    },
+    {
+      "name": "feed",
+      "codepoint": "e03b",
+      "file": "src/svgs/feed.svg"
+    },
+    {
+      "name": "film",
+      "codepoint": "e03a",
+      "file": "src/svgs/film.svg"
+    },
+    {
+      "name": "fire",
+      "codepoint": "e01c",
+      "file": "src/svgs/fire.svg"
+    },
+    {
+      "name": "flag",
+      "codepoint": "e088",
+      "file": "src/svgs/flag.svg"
+    },
+    {
+      "name": "folder",
+      "codepoint": "e089",
+      "file": "src/svgs/folder.svg"
+    },
+    {
+      "name": "folder-alt",
+      "codepoint": "e039",
+      "file": "src/svgs/folder-alt.svg"
+    },
+    {
+      "name": "frame",
+      "codepoint": "e038",
+      "file": "src/svgs/frame.svg"
+    },
+    {
+      "name": "game-controller",
+      "codepoint": "e01b",
+      "file": "src/svgs/game-controller.svg"
+    },
+    {
+      "name": "ghost",
+      "codepoint": "e01a",
+      "file": "src/svgs/ghost.svg"
+    },
+    {
+      "name": "globe",
+      "codepoint": "e037",
+      "file": "src/svgs/globe.svg"
+    },
+    {
+      "name": "globe-alt",
+      "codepoint": "e036",
+      "file": "src/svgs/globe-alt.svg"
+    },
+    {
+      "name": "graduation",
+      "codepoint": "e019",
+      "file": "src/svgs/graduation.svg"
+    },
+    {
+      "name": "graph",
+      "codepoint": "e06b",
+      "file": "src/svgs/graph.svg"
+    },
+    {
+      "name": "grid",
+      "codepoint": "e06a",
+      "file": "src/svgs/grid.svg"
+    },
+    {
+      "name": "handbag",
+      "codepoint": "e035",
+      "file": "src/svgs/handbag.svg"
+    },
+    {
+      "name": "heart",
+      "codepoint": "e08a",
+      "file": "src/svgs/heart.svg"
+    },
+    {
+      "name": "home",
+      "codepoint": "e069",
+      "file": "src/svgs/home.svg"
+    },
+    {
+      "name": "hourglass",
+      "codepoint": "e018",
+      "file": "src/svgs/hourglass.svg"
+    },
+    {
+      "name": "info",
+      "codepoint": "e08b",
+      "file": "src/svgs/info.svg"
+    },
+    {
+      "name": "key",
+      "codepoint": "e08c",
+      "file": "src/svgs/key.svg"
+    },
+    {
+      "name": "layers",
+      "codepoint": "e034",
+      "file": "src/svgs/layers.svg"
+    },
+    {
+      "name": "like",
+      "codepoint": "e068",
+      "file": "src/svgs/like.svg"
+    },
+    {
+      "name": "link",
+      "codepoint": "e08d",
+      "file": "src/svgs/link.svg"
+    },
+    {
+      "name": "list",
+      "codepoint": "e067",
+      "file": "src/svgs/list.svg"
+    },
+    {
+      "name": "location-pin",
+      "codepoint": "e096",
+      "file": "src/svgs/location-pin.svg"
+    },
+    {
+      "name": "lock",
+      "codepoint": "e08e",
+      "file": "src/svgs/lock.svg"
+    },
+    {
+      "name": "lock-open",
+      "codepoint": "e08f",
+      "file": "src/svgs/lock-open.svg"
+    },
+    {
+      "name": "login",
+      "codepoint": "e066",
+      "file": "src/svgs/login.svg"
+    },
+    {
+      "name": "logout",
+      "codepoint": "e065",
+      "file": "src/svgs/logout.svg"
+    },
+    {
+      "name": "loop",
+      "codepoint": "e064",
+      "file": "src/svgs/loop.svg"
+    },
+    {
+      "name": "magic-wand",
+      "codepoint": "e017",
+      "file": "src/svgs/magic-wand.svg"
+    },
+    {
+      "name": "magnet",
+      "codepoint": "e016",
+      "file": "src/svgs/magnet.svg"
+    },
+    {
+      "name": "magnifier",
+      "codepoint": "e090",
+      "file": "src/svgs/magnifier.svg"
+    },
+    {
+      "name": "magnifier-add",
+      "codepoint": "e091",
+      "file": "src/svgs/magnifier-add.svg"
+    },
+    {
+      "name": "magnifier-remove",
+      "codepoint": "e092",
+      "file": "src/svgs/magnifier-remove.svg"
+    },
+    {
+      "name": "map",
+      "codepoint": "e033",
+      "file": "src/svgs/map.svg"
+    },
+    {
+      "name": "menu",
+      "codepoint": "e601",
+      "file": "src/svgs/menu.svg"
+    },
+    {
+      "name": "microphone",
+      "codepoint": "e063",
+      "file": "src/svgs/microphone.svg"
+    },
+    {
+      "name": "minus",
+      "codepoint": "e615",
+      "file": "src/svgs/minus.svg"
+    },
+    {
+      "name": "mouse",
+      "codepoint": "e015",
+      "file": "src/svgs/mouse.svg"
+    },
+    {
+      "name": "music-tone",
+      "codepoint": "e062",
+      "file": "src/svgs/music-tone.svg"
+    },
+    {
+      "name": "music-tone-alt",
+      "codepoint": "e061",
+      "file": "src/svgs/music-tone-alt.svg"
+    },
+    {
+      "name": "mustache",
+      "codepoint": "e014",
+      "file": "src/svgs/mustache.svg"
+    },
+    {
+      "name": "note",
+      "codepoint": "e060",
+      "file": "src/svgs/note.svg"
+    },
+    {
+      "name": "notebook",
+      "codepoint": "e013",
+      "file": "src/svgs/notebook.svg"
+    },
+    {
+      "name": "options",
+      "codepoint": "e603",
+      "file": "src/svgs/options.svg"
+    },
+    {
+      "name": "options-vertical",
+      "codepoint": "e602",
+      "file": "src/svgs/options-vertical.svg"
+    },
+    {
+      "name": "organization",
+      "codepoint": "e616",
+      "file": "src/svgs/organization.svg"
+    },
+    {
+      "name": "paper-clip",
+      "codepoint": "e093",
+      "file": "src/svgs/paper-clip.svg"
+    },
+    {
+      "name": "paper-plane",
+      "codepoint": "e094",
+      "file": "src/svgs/paper-plane.svg"
+    },
+    {
+      "name": "paypal",
+      "codepoint": "e608",
+      "file": "src/svgs/paypal.svg"
+    },
+    {
+      "name": "pencil",
+      "codepoint": "e05f",
+      "file": "src/svgs/pencil.svg"
+    },
+    {
+      "name": "people",
+      "codepoint": "e001",
+      "file": "src/svgs/people.svg"
+    },
+    {
+      "name": "phone",
+      "codepoint": "e600",
+      "file": "src/svgs/phone.svg"
+    },
+    {
+      "name": "picture",
+      "codepoint": "e032",
+      "file": "src/svgs/picture.svg"
+    },
+    {
+      "name": "pie-chart",
+      "codepoint": "e05e",
+      "file": "src/svgs/pie-chart.svg"
+    },
+    {
+      "name": "pin",
+      "codepoint": "e031",
+      "file": "src/svgs/pin.svg"
+    },
+    {
+      "name": "plane",
+      "codepoint": "e012",
+      "file": "src/svgs/plane.svg"
+    },
+    {
+      "name": "playlist",
+      "codepoint": "e030",
+      "file": "src/svgs/playlist.svg"
+    },
+    {
+      "name": "plus",
+      "codepoint": "e095",
+      "file": "src/svgs/plus.svg"
+    },
+    {
+      "name": "power",
+      "codepoint": "e097",
+      "file": "src/svgs/power.svg"
+    },
+    {
+      "name": "present",
+      "codepoint": "e02f",
+      "file": "src/svgs/present.svg"
+    },
+    {
+      "name": "printer",
+      "codepoint": "e02e",
+      "file": "src/svgs/printer.svg"
+    },
+    {
+      "name": "puzzle",
+      "codepoint": "e02d",
+      "file": "src/svgs/puzzle.svg"
+    },
+    {
+      "name": "question",
+      "codepoint": "e05d",
+      "file": "src/svgs/question.svg"
+    },
+    {
+      "name": "refresh",
+      "codepoint": "e098",
+      "file": "src/svgs/refresh.svg"
+    },
+    {
+      "name": "reload",
+      "codepoint": "e099",
+      "file": "src/svgs/reload.svg"
+    },
+    {
+      "name": "rocket",
+      "codepoint": "e05c",
+      "file": "src/svgs/rocket.svg"
+    },
+    {
+      "name": "screen-desktop",
+      "codepoint": "e011",
+      "file": "src/svgs/screen-desktop.svg"
+    },
+    {
+      "name": "screen-smartphone",
+      "codepoint": "e010",
+      "file": "src/svgs/screen-smartphone.svg"
+    },
+    {
+      "name": "screen-tablet",
+      "codepoint": "e00f",
+      "file": "src/svgs/screen-tablet.svg"
+    },
+    {
+      "name": "settings",
+      "codepoint": "e09a",
+      "file": "src/svgs/settings.svg"
+    },
+    {
+      "name": "share",
+      "codepoint": "e05b",
+      "file": "src/svgs/share.svg"
+    },
+    {
+      "name": "share-alt",
+      "codepoint": "e05a",
+      "file": "src/svgs/share-alt.svg"
+    },
+    {
+      "name": "shield",
+      "codepoint": "e00e",
+      "file": "src/svgs/shield.svg"
+    },
+    {
+      "name": "shuffle",
+      "codepoint": "e059",
+      "file": "src/svgs/shuffle.svg"
+    },
+    {
+      "name": "size-actual",
+      "codepoint": "e058",
+      "file": "src/svgs/size-actual.svg"
+    },
+    {
+      "name": "size-fullscreen",
+      "codepoint": "e057",
+      "file": "src/svgs/size-fullscreen.svg"
+    },
+    {
+      "name": "social-behance",
+      "codepoint": "e610",
+      "file": "src/svgs/social-behance.svg"
+    },
+    {
+      "name": "social-dribbble",
+      "codepoint": "e00d",
+      "file": "src/svgs/social-dribbble.svg"
+    },
+    {
+      "name": "social-dropbox",
+      "codepoint": "e00c",
+      "file": "src/svgs/social-dropbox.svg"
+    },
+    {
+      "name": "social-facebook",
+      "codepoint": "e00b",
+      "file": "src/svgs/social-facebook.svg"
+    },
+    {
+      "name": "social-foursqare",
+      "codepoint": "e611",
+      "file": "src/svgs/social-foursqare.svg"
+    },
+    {
+      "name": "social-github",
+      "codepoint": "e60c",
+      "file": "src/svgs/social-github.svg"
+    },
+    {
+      "name": "social-google",
+      "codepoint": "e60d",
+      "file": "src/svgs/social-google.svg"
+    },
+    {
+      "name": "social-instagram",
+      "codepoint": "e609",
+      "file": "src/svgs/social-instagram.svg"
+    },
+    {
+      "name": "social-linkedin",
+      "codepoint": "e60a",
+      "file": "src/svgs/social-linkedin.svg"
+    },
+    {
+      "name": "social-pinterest",
+      "codepoint": "e60b",
+      "file": "src/svgs/social-pintarest.svg"
+    },
+    {
+      "name": "social-reddit",
+      "codepoint": "e60e",
+      "file": "src/svgs/social-reddit.svg"
+    },
+    {
+      "name": "social-skype",
+      "codepoint": "e60f",
+      "file": "src/svgs/social-skype.svg"
+    },
+    {
+      "name": "social-soundcloud",
+      "codepoint": "e612",
+      "file": "src/svgs/social-soundcloud.svg"
+    },
+    {
+      "name": "social-spotify",
+      "codepoint": "e613",
+      "file": "src/svgs/social-spotify.svg"
+    },
+    {
+      "name": "social-steam",
+      "codepoint": "e620",
+      "file": "src/svgs/social-steam.svg"
+    },
+    {
+      "name": "social-stumbleupon",
+      "codepoint": "e614",
+      "file": "src/svgs/social-stumbleupon.svg"
+    },
+    {
+      "name": "social-tumblr",
+      "codepoint": "e00a",
+      "file": "src/svgs/social-tumblr.svg"
+    },
+    {
+      "name": "social-twitter",
+      "codepoint": "e009",
+      "file": "src/svgs/social-twitter.svg"
+    },
+    {
+      "name": "social-vkontakte",
+      "codepoint": "e618",
+      "file": "src/svgs/social-vkontakte.svg"
+    },
+    {
+      "name": "social-youtube",
+      "codepoint": "e008",
+      "file": "src/svgs/social-youtube.svg"
+    },
+    {
+      "name": "speech",
+      "codepoint": "e02c",
+      "file": "src/svgs/speech.svg"
+    },
+    {
+      "name": "speedometer",
+      "codepoint": "e007",
+      "file": "src/svgs/speedometer.svg"
+    },
+    {
+      "name": "star",
+      "codepoint": "e09b",
+      "file": "src/svgs/star.svg"
+    },
+    {
+      "name": "support",
+      "codepoint": "e056",
+      "file": "src/svgs/support.svg"
+    },
+    {
+      "name": "symbol-female",
+      "codepoint": "e09c",
+      "file": "src/svgs/symble-female.svg"
+    },
+    {
+      "name": "symbol-male",
+      "codepoint": "e09d",
+      "file": "src/svgs/symbol-male.svg"
+    },
+    {
+      "name": "tag",
+      "codepoint": "e055",
+      "file": "src/svgs/tag.svg"
+    },
+    {
+      "name": "target",
+      "codepoint": "e09e",
+      "file": "src/svgs/target.svg"
+    },
+    {
+      "name": "trash",
+      "codepoint": "e054",
+      "file": "src/svgs/trash.svg"
+    },
+    {
+      "name": "trophy",
+      "codepoint": "e006",
+      "file": "src/svgs/trophy.svg"
+    },
+    {
+      "name": "umbrella",
+      "codepoint": "e053",
+      "file": "src/svgs/umbrella.svg"
+    },
+    {
+      "name": "user",
+      "codepoint": "e005",
+      "file": "src/svgs/user.svg"
+    },
+    {
+      "name": "user-female",
+      "codepoint": "e000",
+      "file": "src/svgs/user-female.svg"
+    },
+    {
+      "name": "user-follow",
+      "codepoint": "e002",
+      "file": "src/svgs/user-follow.svg"
+    },
+    {
+      "name": "user-following",
+      "codepoint": "e003",
+      "file": "src/svgs/user-following.svg"
+    },
+    {
+      "name": "user-unfollow",
+      "codepoint": "e004",
+      "file": "src/svgs/user-unfollow.svg"
+    },
+    {
+      "name": "vector",
+      "codepoint": "e02b",
+      "file": "src/svgs/vector.svg"
+    },
+    {
+      "name": "volume-1",
+      "codepoint": "e09f",
+      "file": "src/svgs/volume-1.svg"
+    },
+    {
+      "name": "volume-2",
+      "codepoint": "e0a0",
+      "file": "src/svgs/volume-2.svg"
+    },
+    {
+      "name": "volume-off",
+      "codepoint": "e0a1",
+      "file": "src/svgs/volume-off.svg"
+    },
+    {
+      "name": "wallet",
+      "codepoint": "e02a",
+      "file": "src/svgs/wallet.svg"
+    },
+    {
+      "name": "wrench",
+      "codepoint": "e052",
+      "file": "src/svgs/wrench.svg"
+    }
+  ]
+}
